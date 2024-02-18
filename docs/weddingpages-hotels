@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- SETUP -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Wishlist</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      margin: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .price-range {
+      margin-bottom: 30px;
+    }
+
+    .hotel-list {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .hotel-item {
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      padding: 10px;
+      border-radius: 5px;
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .hotel-image {
+      width: 30%; /* Fixed size for image, adjust as needed */
+      height: auto;
+      border-radius: 8px;
+      margin-right: 20px; /* Add space between image and text */
+    }
+
+    .hotel-details {
+      width: 50%; /* Remaining width for text */
+    }
+
+    .hotel-details h3 {
+      margin-top: 0; /* Remove default top margin for h3 */
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px;
+    }
+
+    .button-container button {
+      padding: 8px 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<!-- INFO -->
+
+<body>
+
+  <h1>Wedding Guest Hotel Picks</h1>
+
+<!-- TIER 1 -->
+
+  <div class="price-range">
+    <h2>Tier 1 - High-End Resorts</h2>
+    <ul class="hotel-list">
+
+<!-- HOTEL 1 -->
+
+      <li class="hotel-item">
+        <img class="hotel-image" src="https://content.r9cdn.net/rimg/himg/dd/ef/81/expediav2-6372-441968043-340328.jpg?width=1200&height=630&crop=true" 	alt="Hotel 1 Image">
+        <div class="hotel-details">
+          <h3>Royal Palm Plaza Resort | $2,000-3,000/week</h3>
+	  <h4>Close to VCP Airport</h4>
+          <p>This resort offers 5-star accommodations, less than 3.1 mi from the center of Campinas and features several outdoor swimming pools and many 	leisure facilities on-site. Free WiFi is offered throughout the property and private parking is available on site, at a surcharge.</p>
+	      <p>All luxurious rooms at Royal Palm Plaza Resort are spacious and well designed. They are air-conditioned and feature a TV with cable 	channels, a safety deposit box, a mini-bar and a work desk. The private bathroom includes a shower, a hairdryer and free toiletries. Some rooms 	also include a spa bath and boast pool views.</p>
+	      <p>Leisure facilities include 4 tennis courts, a games room, a fitness area and an outdoor hot tub. For your wellness, Royal Palm Plaza Resort 	provides massage services, a sauna and a indoor heated pool at a surcharge.</p>
+	      <p>The resort has 7 restaurants and bars with pleasant ambiances, ideal for a sophisticated evening, a casual lunch, an afternoon by the pool 	or at 	the resort’s green areas.</p>
+	      <p>Viracopos Airport is 6.5 mi away and Shopping Center Outlet Campinas is 2.2 mi away. Private parking is possible on-site and incurs a daily 	fee.</p>
+          <div class="button-container">
+	<button onclick="window.open('https://www.booking.com/hotel/br/royal-palm-plaza-resort.html?aid=304142	&label=gen173nr-1FCAEoggI46AdILVgEaCCIAQGYAS24ARfIAQzYAQHoAQH4AQKIAgGoAgO4AtHEya4GwAIB0gIkNmEwNDI0NjktYmI0Zi00MGQ3LWIyZTItM2Q5MmY4NDcyMjVl2AIF4AIB&s	id=86ffcbef8d9cb61529f04adce8685207&checkin=2024-07-17&checkout=2024-07-24&dist=0&from_list=1&group_adults=1&group_children=0&group_rooms=1	&highlighted_blocks=26466507_93720532_1_21_0&no_rooms=1&req_adults=1&req_children=0&sb_price_type=total&type=total&lang=en-us&soz=1&lang_changed=1	&selected_currency=USD')">See on Booking.com</button>
+	<button onclick="window.open('https://royalpalm.com.br/hoteis/royal-palm-plaza-resort/')">See hotel website</button>
+
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+<!-- TIER 2 -->
+
+  <div class="price-range">
+    <h2>Tier 2 - High-End Hotels</h2>
+    <ul class="hotel-list">
+
+<!-- HOTEL 2 -->
+
+      <li class="hotel-item">
+        <img class="hotel-image" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/db/9a/16/pool.jpg?w=1100&h=-1&s=1" alt="Hotel 2 Image">
+        <div class="hotel-details">
+          <h3>Radisson RED Campinas | $600-800/week</h3>	 
+	  <h4>RECOMMENDED: Best Location</h4>
+          <p>Offering free WiFi, Radisson RED Campinas is located in Cambuí neighborhood, in Campinas, 2.8 mi from Iguatemi Campinas Mall and 5 mi from 	Parque Dom Pedro Mall. The modern hotel features an equipped fitness center and a sauna. Private 	parking is possible on site,at a 	surcharge.</p>
+	<p>The modern and trendy rooms are decorated in tones of red and feature a balcony with views, a flat-screen TV with cable channels, a mini-bar, a 	kettle with coffee and teas, safety deposit box and air conditioning. The private bathroom is 	fitted 	with a shower, free toiletries and a 	hairdryer. Some suites also include a bath tub and a kitchenette equipped with a microwave.</p>
+	<p>Guests benefit from a rich buffet breakfast served daily at the hotel, which includes a wide variety of fresh fruits,hot and cold 	beverages,cakes,cold cuts as well as American and vegetarian options.</p>
+	<p>An outdoor swimming pool with sun loungers is available for guests to relax. For business meetings, Radisson RED Campinas provides well-equipped 	events and games facilities that include the latest technology audiovisual equipment, ping pong 	and pool tables and board games.</p>
+	<p>Unicamp - Universidade Estadual de Campinas can be reached within 7.1 mi, while Viracopos Airport is 13 mi away. São Paulo/Guarulhos 	International Airport is 73 mi from the hotel.</p>
+          <div class="button-container">
+	<button onclick="window.open('https://www.booking.com/hotel/br/radisson-red-campinas.html?aid=304142	&label=gen173nr-1FCAEoggI46AdILVgEaCCIAQGYAS24ARfIAQzYAQHoAQH4AQKIAgGoAgO4Apbkya4GwAIB0gIkMGE0NzQwZmUtMjE1YS00ZDM1LTg3MDAtMWI4MTYxN2ViZTAz2AIF4AIB&s	id=86ffcbef8d9cb61529f04adce8685207&from_list=1&checkin=2024-07-17&checkout=2024-07-24&highlighted_blocks=193028407_195537771_1_1_0&group_rooms=1	&group_adults=1&group_children=0&no_rooms=1&req_adults=1&req_children=0')">See on Booking.com</button>
+	<button onclick="window.open('https://www.reserveatlantica.com.br/hotel/radisson-red-campinas')">See hotel website</button>
+
+          </div>
+        </div>
+      </li>
+
+<!-- HOTEL 3 -->
+
+      <li class="hotel-item">
+        <img class="hotel-image" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/0c/0b/62/melia-campinas.jpg?w=1200&h=-1&s=1" alt="Hotel 2 	Image">
+        <div class="hotel-details">
+          <h3>Meliá Campinas | $500-700/week</h3>
+	  <h4>RECOMMENDED: Best Location</h4>
+          <p>Boasting an outdoor pool, Meliá Campinas offers 4-star accommodations in a building of classic architecture located in the elegant and safe 	Cambui district of Campinas. Private parking is available for a surcharge.
+	<p>All guestrooms are air-conditioned and equipped with free internet connection, cable TV, a mini-bar and a safety deposit box.</p>
+	<p>As a guest of Meliá Campinas, you can also work out in the gym and relax in the sauna. A restaurant is also available for guests' 	convenience.</p>
+	<p>Museum of Image and Sound is 0.6 mi from the hotel, while Viracopos Airport is 13 mi away.</p>
+          <div class="button-container">
+	<button onclick="window.open('https://www.booking.com/hotel/br/melia-campinas.html?aid=304142	&label=gen173nr-1FCAEoggI46AdILVgEaCCIAQGYAS24ARfIAQzYAQHoAQH4AQKIAgGoAgO4Apbkya4GwAIB0gIkMGE0NzQwZmUtMjE1YS00ZDM1LTg3MDAtMWI4MTYxN2ViZTAz2AIF4AIB&s	id=86ffcbef8d9cb61529f04adce8685207&from_list=1&checkin=2024-07-17&checkout=2024-07-24&highlighted_blocks=1632309_209196789_1_2_0&group_rooms=1	&group_adults=1&group_children=0&no_rooms=1&req_adults=1&req_children=0')">See on Booking.com</button>
+	<button onclick="window.open('https://www.melia.com/pt/hoteis/brasil/campinas/melia-campinas')">See hotel website</button>
+
+          </div>
+        </div>
+      </li>
+
+<!-- HOTEL 4 -->
+
+      <li class="hotel-item">
+        <img class="hotel-image" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/07/fd/bc/exterior-view.jpg?w=700&h=-1&s=1" alt="Hotel 2 	Image">
+        <div class="hotel-details">
+          <h3>Vitória Hotel Concept Campinas | $600-800/week</h3>
+	  <h4>RECOMMENDED: Best Location</h4>
+          <p>Located 1.9 mi from Taquaral Park, Vitoria Hotel Concept offers a helipad and an outdoor pool. It offers free Wi-Fi, bar and a spa with a sauna 	and hot tub. There are 2 restaurants that serve international cuisine.
+	<p>The air-conditioned guest rooms at Vitória Hotel Campinas are brightly decorated and equipped with a TV and work desk.</p>
+	<p>After a morning work-out in the gym, guests can read a book in the library.</p>
+	<p>Vitória Hotel Campinas is located 1.9 mi from Iguatemi shopping center, and 4.3 mi from Parque D. Pedro shopping center. The Eco-Park is 3.1 mi 	from the hotel, and Viracopos International Airport is 9.3 mi away.</p>
+          <div class="button-container">
+	<button onclick="window.open('https://www.booking.com/hotel/br/vitoria-campinas.html?aid=304142	&label=gen173nr-1FCAEoggI46AdILVgEaCCIAQGYAS24ARfIAQzYAQHoAQH4AQKIAgGoAgO4Apbkya4GwAIB0gIkMGE0NzQwZmUtMjE1YS00ZDM1LTg3MDAtMWI4MTYxN2ViZTAz2AIF4AIB&s	id=86ffcbef8d9cb61529f04adce8685207&from_list=1&checkin=2024-07-17&checkout=2024-07-24&highlighted_blocks=29627703_356179711_1_1_0&group_rooms=1	&group_adults=1&group_children=0&no_rooms=1&req_adults=1&req_children=0')">See on Booking.com</button>
+	<button onclick="window.open('https://www.vitoriahoteis.com.br/hotel-concept-campinas')">See hotel website</button>
+
+          </div>
+        </div>
+      </li>
+
+<!-- HOTEL 5 -->
+
+      <li class="hotel-item">
+        <img class="hotel-image" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/dc/96/b0/i-am-design-hotel-residence.jpg?w=1200&h=-1&s=1" 	alt="Hotel 2 Image">
+        <div class="hotel-details">
+          <h3>I am Design Hotel Campinas | $600-800/week</h3>
+          <p>Featuring free WiFi, a restaurant and an outdoor pool, I am Design Hotel Campinas by Hotelaria Brasil offers accommodations in Campinas. The 	hotel has a sauna and fitness center, and guests can enjoy a drink at the bar. Private parking is 	available on site for a surcharge.
+	<p>Each room at this hotel is air conditioned and comes with a flat-screen TV. Rooms come with a private bathroom, a kitchen, a seating area, a desk 	and a balcony. For your comfort, you will find free toiletries and a hairdryer.</p>
+	<p>Other facilities at the property include a floor dedicated to women, mirror and makeup brushes.</p>
+	<p>You will find a 24-hour front desk at the property.</p>
+	<p>Iguatemi Shopping is 1.4 mi from I am Design Hotel Campinas by Hotelaria Brasil, while  Viracopos International Airport is 9.9 mi away.</p>
+          <div class="button-container">
+	<button onclick="window.open('https://www.booking.com/hotel/br/i-am-design-residence.html?aid=304142	&label=gen173nr-1FCAEoggI46AdILVgEaCCIAQGYAS24ARfIAQzYAQHoAQH4AQKIAgGoAgO4Apbkya4GwAIB0gIkMGE0NzQwZmUtMjE1YS00ZDM1LTg3MDAtMWI4MTYxN2ViZTAz2AIF4AIB&s	id=86ffcbef8d9cb61529f04adce8685207&from_list=1&checkin=2024-07-17&checkout=2024-07-24&highlighted_blocks=249234605_195981518_1_1_0&group_rooms=1	&group_adults=1&group_children=0&no_rooms=1&req_adults=1&req_children=0')">See on Booking.com</button>
+	<button onclick="window.open('https://iamdesignhotel.com/')">See hotel website</button>
+
+          </div>
+        </div>
+      </li>
+
+<!-- HOTEL 6 -->
+
+      <li class="hotel-item">
+        <img class="hotel-image" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/6c/43/fc/hotel-contemporaneo.jpg?w=1200&h=-1&s=1" 	alt="Hotel 2 Image">
+        <div class="hotel-details">
+          <h3>Hotel Contemporâneo - Royal Palm Hotels & Resorts | $500-600/week</h3>
+	  <h4>Close to VCP Airport</h4>
+          <p>Located in Campinas, 2.6 miles from Campinas Shopping Center, Hotel Contemporâneo - Royal Palm Hotels & Resorts features views of the city. 	Featuring a restaurant, the 3-star hotel has air-conditioned rooms with free WiFi, each with a <p>	private bathroom. Private parking is 	available on site.</p>
+	<p>The rooms at the hotel come with a flat-screen TV with cable channels and a safety deposit box. At Hotel Contemporâneo - Royal Palm Hotels & 	Resorts rooms include bed linen and towels.</p>
+	<p>Guests at the accommodation can enjoy a buffet breakfast.</p>
+	<p>Speaking English, Spanish and Portuguese at the 24-hour front desk, staff are always on hand to help.</p>
+	<p>Moisés Lucarelli Stadium is 2.9 miles from Hotel Contemporâneo - Royal Palm Hotels & Resorts, while Golden Earring of the Princess Stadium is 3.1 	miles from the property. The nearest airport is Viracopos International Airport, 8.1 miles from 	the hotel.</p>
+          <div class="button-container">
+	<button onclick="window.open('https://www.booking.com/hotel/br/contemporaneo.html?aid=304142	&label=gen173nr-1FCAEoggI46AdILVgEaCCIAQGYAS24ARfIAQzYAQHoAQH4AQKIAgGoAgO4Apbkya4GwAIB0gIkMGE0NzQwZmUtMjE1YS00ZDM1LTg3MDAtMWI4MTYxN2ViZTAz2AIF4AIB&s	id=86ffcbef8d9cb61529f04adce8685207&from_list=1&checkin=2024-07-17&checkout=2024-07-24&highlighted_blocks=418465201_218633254_1_41_0&group_rooms=1	&group_adults=1&group_children=0&no_rooms=1&req_adults=1&req_children=0')">See on Booking.com</button>
+	<button onclick="window.open('https://royalpalm.com.br/hoteis/contemporaneo/')">See hotel website</button>
+
+          </div>
+        </div>
+      </li>
+
+<!-- HOTEL 7 -->
+
+      <li class="hotel-item">
+        <img class="hotel-image" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/6b/a6/14/vitoria-newport-residence.jpg?w=1200&h=-1&s=1" 	alt="Hotel 2 Image">
+        <div class="hotel-details">
+          <h3>Vitória Hotel Residence NewPort | $600-800/week</h3>
+          <p>This hotel is located in the center of Campinas just 656 feet from restaurants, bars and shops. It offers spacious well-equipped 	accommodations, an outdoor pool and free Wi-Fi.</p>
+	<p>Rooms at Vitória Newport Residence feature a modern décor with tiled flooring, and some also have a balcony. They come with a kitchen which is 	equipped with microwave and a mini-bar. The seating area features cable TV.</p>
+	<p>A Brazilian breakfast buffet is served at the Garibaldi Restaurant, including fresh fruits, juices, breads, cereals and yogurts. National and 	international dishes are available.</p>
+	<p>Residence Vitória Newport is located 12 mi from Viracopos Airport. Pet friendly.</p>
+          <div class="button-container">
+	<button onclick="window.open('https://www.booking.com/hotel/br/vitoria-newport-residence.html?aid=304142	&label=gen173nr-1FCAEoggI46AdILVgEaCCIAQGYAS24ARfIAQzYAQHoAQH4AQKIAgGoAgO4Apbkya4GwAIB0gIkMGE0NzQwZmUtMjE1YS00ZDM1LTg3MDAtMWI4MTYxN2ViZTAz2AIF4AIB&s	id=86ffcbef8d9cb61529f04adce8685207&from_list=1&checkin=2024-07-17&checkout=2024-07-24&highlighted_blocks=29728003_356179730_1_1_0&group_rooms=1	&group_adults=1&group_children=0&no_rooms=1&req_adults=1&req_children=0')">See on Booking.com</button>
+	<button onclick="window.open('https://www.vitoriahoteis.com.br/hotel-residence-newport')">See hotel website</button>
+
+          </div>
+        </div>
+      </li>
+
+<!-- HOTEL 8 -->
+
+      <li class="hotel-item">
+        <img class="hotel-image" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/36/ab/44/royal-palm-tower-anhanguera.jpg?w=1200&h=-1&s=1" 	alt="Hotel 2 Image">
+        <div class="hotel-details">
+          <h3>Royal Palm Tower Anhanguera | $600-800/week</h3>
+	  <h4>Close to VCP Airport</h4>
+          <p>Royal Palm Tower Anhanguera in Campinas has 4-star accommodations with a fitness center, a garden and a bar. Royal Palm Hall Convention Center 	is 328 feet from the property, while Campinas city center is 2.5 mi away.
+	<p>The rooms in the hotel are bright and equipped with a flat-screen TV with cable channels and a working desk. Rooms include a private bathroom 	with free toiletries. Some rooms include a Nespresso machine and a bathrobe.</p>
+	<p>A buffet breakfast can be enjoyed at the property and it consists of various kinds of breads, cakes, juices and fruits.</p>
+	<p>Royal Palm Tower Anhanguera offers a sauna and sun loungers by the pool.</p>
+	<p>Staff at the accommodations are available to provide information at the 24-hour front desk.</p>
+	<p>Campinas Shopping Mall is located 1.9 mi from Royal Palm Tower Anhanguera. The nearest airport is Viracopos International Airport, 6.8 mi 	away.</p>
+          <div class="button-container">
+	<button onclick="window.open('https://www.booking.com/hotel/br/royal-palm-tower-anhanguera.html?aid=304142	&label=gen173nr-1FCAEoggI46AdILVgEaCCIAQGYAS24ARfIAQzYAQHoAQH4AQKIAgGoAgO4Apbkya4GwAIB0gIkMGE0NzQwZmUtMjE1YS00ZDM1LTg3MDAtMWI4MTYxN2ViZTAz2AIF4AIB&s	id=86ffcbef8d9cb61529f04adce8685207&from_list=1&checkin=2024-07-17&checkout=2024-07-24&highlighted_blocks=380043802_120796461_1_1_0&group_rooms=1	&group_adults=1&group_children=0&no_rooms=1&req_adults=1&req_children=0')">See on Booking.com</button>
+	<button onclick="window.open('https://royalpalm.com.br/hoteis/royal-palm-tower-anhanguera-campinas/')">See hotel website</button>
+
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+<!-- TIER 3 -->
+
+  <div class="price-range">
+    <h2>Tier 3 - Medium-Range Hotels</h2>
+    <ul class="hotel-list">
+
+<!-- HOTEL 9 -->
+
+      <li class="hotel-item">
+        <img class="hotel-image" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/ab/1b/6c/park-tower-hotel.jpg?w=1200&h=-1&s=1" alt="Hotel 2 	Image">
+        <div class="hotel-details">
+          <h3>Capital O Park Tower, Campinas | $200-400/week</h3>
+          <p>A rooftop swimming pool with panoramic city views of Campinas and spacious self-catering apartments are offered at Capital O Park Tower. The 	hotel is located in front of Praça do Pará Square.
+	<p>Apartments have free Wi-Fi. A microwave may be arranged upon request. There is a seating and dining area and the private balcony offers park and 	city views.</p>
+	<p>Alternatively, Capital O Park Tower also provides a restaurant where breakfast is served and national and international à la carte and buffet 	dishes are prepared during the evening.</p>
+	<p>Guests can relax in the sauna or work out in the on-site gym. Billiards is offered in the games area.</p>
+	<p>Being located centrally, restaurant, bars and shops are within a short walking distance from Park Tower. Private parking is possible at the 	hotel,at a surcharge. The property is located 11 mi from Viracopos Airport.</p>
+          <div class="button-container">
+	<button onclick="window.open('https://www.booking.com/hotel/br/park-tower-campinas.html?aid=304142	&label=gen173nr-1FCAEoggI46AdILVgEaCCIAQGYAS24ARfIAQzYAQHoAQH4AQKIAgGoAgO4Apbkya4GwAIB0gIkMGE0NzQwZmUtMjE1YS00ZDM1LTg3MDAtMWI4MTYxN2ViZTAz2AIF4AIB&s	id=86ffcbef8d9cb61529f04adce8685207&from_list=1&checkin=2024-07-17&checkout=2024-07-24&highlighted_blocks=29561211_383252134_2_1_0&group_rooms=1	&group_adults=1&group_children=0&no_rooms=1&req_adults=1&req_children=0')">See on Booking.com</button>
+	<button onclick="window.open('https://park-tower-campinas.hotelsincampinas.com/pt/')">See hotel website</button>
+
+          </div>
+        </div>
+      </li>
+
+<!-- HOTEL 10 -->
+
+      <li class="hotel-item">
+        <img class="hotel-image" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/1a/63/43/nacional-inn-campinas.jpg?w=600&h=-1&s=1" 	alt="Hotel 2 Image">
+        <div class="hotel-details">
+          <h3>Hotel Nacional Inn Campinas Trevo | $200-400/week</h3>
+	  <h4>Close to VCP Airport</h4>
+          <p>Enable your whole family to have fun in the swimming pools with slides, playground, games room and gym staying at the Hotel Nacional Inn 	Campinas Trevo, at the gateway to the city.</p>
+	<p>The accommodating staff is a highlight of this hotel. Together with facilities such as a business center, internet access and room service, they 	will make sure you get all you need 24 hours a day.</p>
+	<p>In addition to a tasty breakfast, you will find several dining options and drinks in the hotel restaurant, American bar and snack bar.</p>
+	<p>The location of Nacional Inn Campinas is another advantage: the hotel lies 18 km from Viracopos Airport and 15.5 miles from Hopi Hari and Wet'n 	Wild parks.</p>
+          <div class="button-container">
+	<button onclick="window.open('https://www.booking.com/hotel/br/nacional-inn-campinas.html?aid=304142	&label=gen173nr-1FCAEoggI46AdILVgEaCCIAQGYAS24ARfIAQzYAQHoAQH4AQKIAgGoAgO4Aqjsya4GwAIB0gIkMWRjOTNjOWEtYzE4Mi00NzVmLTk0ZDgtYjI4NzBjNzM2M2Ey2AIF4AIB&s	id=86ffcbef8d9cb61529f04adce8685207&all_sr_blocks=1699916_386035532_1_41_0&checkin=2024-07-17&checkout=2024-07-24&dest_id=16999	&dest_type=hotel&dist=0&group_adults=1&group_children=0&hapos=1&highlighted_blocks=1699916_386035532_1_41_0&hpos=1&matching_block_id=1699916_	386035532_1_41_0&no_rooms=1&req_adults=1&req_children=0&room1=A&sb_price_type=total&sr_order=popularity&sr_pri_blocks=1699916_386035532_1_41_0__	126932&srepoch=1708291651&srpvid=ed3d96de02f20279&type=total&ucfs=1&lang=en-us&soz=1&lang_changed=1#hotelTmpl')">See on Booking.com</button>
+	<button onclick="window.open('https://www.nacionalinn.com.br/hoteis/hotel-nacional-inn-campinas')">See hotel website</button>
+
+          </div>
+        </div>
+      </li>
+
+<!-- HOTEL 11 -->
+
+      <li class="hotel-item">
+        <img class="hotel-image" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/79/de/81/hotel-malibu-inn.jpg?w=1200&h=-1&s=1" alt="Hotel 2 	Image">
+        <div class="hotel-details">
+          <h3>Hotel Malibu Inn | $200-400/week</h3>
+          <p>Offering views of the city, Hotel Malibu Inn is located in Campinas, 1.4 mi from Moisés Lucarelli Stadium. Free WiFi access is available.</p>
+	<p>Each room at this hotel is air conditioned and has a flat-screen TV with satellite  channels. All rooms include a private bathroom equipped with 	a hairdryer and free toiletries.Bed linen and towels are offered.</p>
+	<p>Guests can enjoy the on-site restaurant. Other facilities include a 24-hour front desk,a shared lounge and a laundry.</p>
+	<p>Golden Earring of the Princess Stadium is 1.7 mi from Hotel Malibu Inn, while Campinas Shopping Center is 2.4 mi from the property. Viracopos 	International Airport is 9.3 mi away.</p>
+          <div class="button-container">
+	<button onclick="window.open('https://www.booking.com/hotel/br/malibu-inn.pt-br.html?	label=gen173nr-1FCAEoggI46AdILVgEaCCIAQGYAS24ARfIAQzYAQHoAQH4AQKIAgGoAgO4Apbkya4GwAIB0gIkMGE0NzQwZmUtMjE1YS00ZDM1LTg3MDAtMWI4MTYxN2ViZTAz2AIF4AIB&si	d=86ffcbef8d9cb61529f04adce8685207&aid=304142&ucfs=1&arphpl=1&checkin=2024-07-17&checkout=2024-07-24&dest_id=1582005&dest_type=hotel&group_adults=1	&req_adults=1&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=popularity&srpvid=ddf798c8d48602fc&srepoch=1708292627	&all_sr_blocks=158200505_377815437_1_1_0&highlighted_blocks=158200505_377815437_1_1_0&matching_block_id=158200505_377815437_1_1_0&sr_pri_blocks=	158200505_377815437_1_1_0__127613&from=searchresults#hotelTmpl')">See on Booking.com</button>
+
+<button onclick="window.open('https://hotelmalibuinn.com.br/')">See hotel website</button>
+
+          </div>
+        </div>
+      </li>
+
+<!-- HOTEL 12 -->
+
+      <li class="hotel-item">
+        <img class="hotel-image" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/48/90/0f/hotel-dan-inn.jpg?w=1200&h=-1&s=1" alt="Hotel 2 	Image">
+        <div class="hotel-details">
+          <h3>Hotel Dan Inn Campinas Cambuí | $300-400/week</h3>
+          <p>Located in Cambui district, where bars and restaurants can be found, Dan Inn features a pool, gym and sauna.  It offers air-conditioned rooms 	and a daily buffet breakfast at the restaurant.</p>
+	<p>With a TV, mini-bar and telephone, all rooms are equipped with a private bathroom. Some are furnished with wooden floors. Wi-Fi is available for 	a fee.</p>
+	<p>Hotel Dan Inn Campinas Cambuí - Um Hotel Clássico Em Campinas vários hospitais Renascença, Vera Cruz, Irmãos Penteado, Casa de Saúde de Campinas, 	Santa Tereza, Mario Gatti vários hospitais  Renascença,  Vera Cruz, Irmãos Penteado, Casa de 	Saúde de Campinas, Santa Tereza, Mario Gatti vários 	hospitais  Hospital Renascença,  Hospital Vera Cruz, hospital Irmãos Penteado, Casa de Saúde de Campinas, Hospital Santa Tereza, Hospital Mario 	Gatti varios hospitais Hospital Renascença, Vera Cruz, Irmãos Penteado, Casa de Saude, Hospital Mario Gatti is 6.2 mi from Iguatemi Shopping 	Center, and 16 mi from Viracopos Airport. Campinas Center is just 1.2 mi away.</p>
+          <div class="button-container">
+	<button onclick="window.open('https://www.booking.com/hotel/br/dan-inn-cambui.pt-br.html?	label=gen173nr-1FCAEoggI46AdILVgEaCCIAQGYAS24ARfIAQzYAQHoAQH4AQKIAgGoAgO4Apbkya4GwAIB0gIkMGE0NzQwZmUtMjE1YS00ZDM1LTg3MDAtMWI4MTYxN2ViZTAz2AIF4AIB&si	d=86ffcbef8d9cb61529f04adce8685207&aid=304142&ucfs=1&arphpl=1&checkin=2024-07-17&checkout=2024-07-24&dest_id=10813374&dest_type=hotel&group_adults=1	&req_adults=1&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=be4f98dd5d450233&srepoch=1708292676	&all_sr_blocks=39316010_361981182_1_1_0&highlighted_blocks=39316010_361981182_1_1_0&matching_block_id=39316010_361981182_1_1_0&sr_pri_blocks=	39316010_361981182_1_1_0__158283&from_sustainable_property_sr=1&from=searchresults#hotelTmpl')">See on Booking.com</button>
+	<button onclick="window.open('https://www.nacionalinn.com.br/hoteis/hotel-dan-inn-cambui-campinas')">See hotel website</button>
+
+          </div>
+        </div>
+      </li>
+
+<!-- HOTEL 13 -->
+
+      <li class="hotel-item">
+        <img class="hotel-image" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/b8/7a/14/cassino-tower-hotel-campinas.jpg?w=1200&h=-1&s=1" 	alt="Hotel 2 Image">
+        <div class="hotel-details">
+          <h3>Hotel Cassino Tower Campinas Cambuí | $400-600/week</h3>
+          <p>A great mix between business and pleasure, Casino Tower Campinas Cambuí offers 4- star accommodations, just a 5-minute walk from Campinas' city 	center. It offers free WiFi.</p>
+	<p>All rooms at Casino Tower Campinas Cambuí are luxury designed and newly decorated. It features air-conditioning, 32-inch LCD TV and a DVD player. 	Room service is available.</p>
+	<p>Featuring a hot tub, the hotel also includes a dry sauna for relaxation. Guests can enjoy a workout at the on-site fitness center.</p>
+	<p>Located next to the historic Praça Carlos Gomes and 9.1 mi from the International Airport of Viracopos, the hotel offers valet private parking 	(there are extra fees).</p>
+          <div class="button-container">
+	<button onclick="window.open('https://www.booking.com/hotel/br/royal-palm-tower-carlos-gomes.html?aid=304142	&label=gen173nr-1FCAEoggI46AdILVgEaCCIAQGYAS24ARfIAQzYAQHoAQH4AQKIAgGoAgO4Apbkya4GwAIB0gIkMGE0NzQwZmUtMjE1YS00ZDM1LTg3MDAtMWI4MTYxN2ViZTAz2AIF4AIB&s	id=86ffcbef8d9cb61529f04adce8685207&from_list=1&checkin=2024-07-17&checkout=2024-07-24&highlighted_blocks=26466607_372535326_1_1_0&group_rooms=1	&group_adults=1&group_children=0&no_rooms=1&req_adults=1&req_children=0')">See on Booking.com</button>
+	<button onclick="window.open('https://www.nacionalinn.com.br/hotel/83/cassino-tower-hotel-campinas')">See hotel website</button>
+
+          </div>
+        </div>
+      </li>
+
+<!-- HOTEL 14 -->
+
+      <li class="hotel-item">
+        <img class="hotel-image" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/05/94/a2/piscina.jpg?w=1200&h=-1&s=1" alt="Hotel 2 Image">
+        <div class="hotel-details">
+          <h3>Hotel Nacional Inn Cambuí Campinas Residence | $400-600/week</h3>
+          <p>Next to Campinas' Cambuí area, Hotel Nacional Inn Cambuí Campinas Residence features an outdoor swimming pool, fitness center, sauna and a bar. 	With free WiFi, this 4-star hotel offers a 24-hour front desk and room service. Private parking 	is available at a surcharge.</p>
+	<p>The hotel features family rooms with a kitchenette and a living room. The spacious, air-conditioned suites offer a 32-inch LCD TV, balcony and a 	private bathroom with a shower and hairdryer.</p>
+	<p>The hotel also provides a work station with WiFi and wired internet. Guests also have access to meeting facilities with capacity of 100 	people.</p>
+	Popular points of interest near the hotel include Golden Earring of the Princess Stadium, Museum of Image and Sound and Castro Mendes Theater. The 	nearest airport is Viracopos International Airport, 9.3 mi from Hotel Nacional Inn Cambuí 	Campinas Residence.</p>
+          <div class="button-container">
+	<button onclick="window.open('https://www.booking.com/hotel/br/royal-palm-residence.pt-br.html?	label=gen173nr-1FCAEoggI46AdILVgEaCCIAQGYAS24ARfIAQzYAQHoAQH4AQKIAgGoAgO4Apbkya4GwAIB0gIkMGE0NzQwZmUtMjE1YS00ZDM1LTg3MDAtMWI4MTYxN2ViZTAz2AIF4AIB&si	d=86ffcbef8d9cb61529f04adce8685207&aid=304142&ucfs=1&arphpl=1&checkin=2024-07-17&checkout=2024-07-24&dest_id=264667&dest_type=hotel&group_adults=1	&req_adults=1&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=popularity&srpvid=5ac1994fd3cc0001&srepoch=1708292897	&all_sr_blocks=26466710_375560238_1_1_0&highlighted_blocks=26466710_375560238_1_1_0&matching_block_id=26466710_375560238_1_1_0&sr_pri_blocks=	26466710_375560238_1_1_0__205520&from_sustainable_property_sr=1&from=searchresults#hotelTmpl')">See on Booking.com</button>
+	<button onclick="window.open('https://www.nacionalinn.com.br/hoteis/hotel-nacional-inn-cambui-campinas-residence')">See hotel website</button>
+
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+</body>
+</html>
