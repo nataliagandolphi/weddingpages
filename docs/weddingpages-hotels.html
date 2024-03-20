@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- SETUP -->
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,18 +34,18 @@
     }
 
     .hotel-image {
-      width: 30%; /* Fixed size for image, adjust as needed */
+      width: 30%;
       height: auto;
       border-radius: 8px;
-      margin-right: 20px; /* Add space between image and text */
+      margin-right: 20px;
     }
 
     .hotel-details {
-      width: 50%; /* Remaining width for text */
+      width: 50%;
     }
 
     .hotel-details h3 {
-      margin-top: 0; /* Remove default top margin for h3 */
+      margin-top: 0;
     }
 
     .button-container {
@@ -61,23 +59,25 @@
       cursor: pointer;
     }
 
-  @media screen and (max-width: 600px) {
-    .hotel-item {
-      align-items: center; 
-    }
-	  
-    .hotel-image {
-      align-items: center; 
-    }
+    @media screen and (max-width: 600px) {
+      .hotel-item {
+        flex-direction: column;
+        align-items: center;
+      }
 
-    .hotel-details {
-      text-align: center; 
+      .hotel-image {
+        order: -1;
+        margin-bottom: 20px;
+        width: 70%;
+      }
+
+      .hotel-details {
+        text-align: center;
+        width: 100%;
+      }
     }
-  }
-	  
   </style>
 </head>
-
 <!-- INFO -->
 
 <body>
